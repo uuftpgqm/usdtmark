@@ -28,6 +28,10 @@ key.data 文件内容为你的机器人的 key （第一步获取的）
 
 # 运行docker
 
+docker-compose down
+
+docker rmi huiwushi/telewebusdt:latest
+
 docker-compose up -d
 
 成功运行
